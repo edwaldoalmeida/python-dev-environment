@@ -23,7 +23,7 @@ docker-compose run python-dev-environment
 
 ## Using it
 
-After spinning up the environment, `/root/src/` inside the container will be linked to the directory `./src/` on the host OS.
+After spinning up the environment, `/root/src/` inside the container will be linked to `./src/` on the host OS.
 
 Have fun with Python!
 
