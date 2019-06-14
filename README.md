@@ -1,8 +1,8 @@
 # Python Dev Environment
 
-This docker-compose file was developed to make it easy to spin up a Dev Environment with different Python versions and to experiment between versions 2 and 3.
+I've developed this docker-compose file to make it easy to spin up a Dev Environment with different Python versions and to experiment between versions 2 and 3.
 
-Environment where it was developed:
+I've used:
 
 * macOS Mojave 10.14.4
 * Docker Desktop 2.0.4.1
@@ -23,7 +23,7 @@ docker-compose run python-dev-environment
 
 ## Using it
 
-After spinning up the environment, the a `/root/src/` directory inside the container will be linked to the directory `./src/`
+After spinning up the environment, `/root/src/` inside the container will be linked to the directory `./src/` on the host OS.
 
 Have fun with Python!
 
